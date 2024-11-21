@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-image: radial-gradient(
+        rgb(37, 27, 24) 13%,
+        rgb(44, 42, 37) 39%,
+        rgb(13, 13, 13)100%
+    );
+}
+
+.main{
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 75vh;
+    position: relative;
+    border: 1px solid #fff;
+    border-radius: 2rem;
+}
+
+.main .box{
+    height: 75vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    /* top: 0; */
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 2rem;
+}
+
+nav{
+    max-width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 62px;
+}
+
+nav img{
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 600;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :first-child{
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation{
+    height: 7px;
+    background-color: rgb(94, 92, 92);
+}
+
+.btn{
+    height: 2rem;
+    width: 8rem;
+    padding: 3px 8px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border: 1px solid white;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.btn-red-sn{
+    width: 5rem;
+    height: 2rem;
+    background-color: red;
+    color: white;
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input{
+    height: 2.6rem;
+    width: 23rem;
+    padding: 4px 16px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 2.2rem;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rbga(246, 238, 238, 0.5);
+}
+
+.btn-red{
+    height: 3.2rem;
+    width: 12rem;
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 2.2rem;
+}
+/* ====== first section start ===== */
+.first h2{
+    font-size: 2.5rem;
+    color: #fff;
+    padding: 1.3rem 0;
+    margin-left: 12.7rem;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-img{
+    background-image: url("assets/images/devara.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    height: 15rem;
+    width: 11rem;
+    margin-right: 0.5rem;
+}
+
+.img2{
+    background-image: url("assets/images/do-patti-indian-movie-poster.webp");
+}
+.img3{
+    background-image: url("assets/images/meiyazhagan.webp");
+}
+.img4{
+    background-image: url("assets/images/kapil\ sharma.webp");
+}
+.img5{
+    background-image: url("assets/images/the\ greatest\ of\ time.webp");
+}
+
+.box-img:hover{
+    height: 16rem;
+    width: 12rem;
+}
+/* ====== first section end ===== */
+
+/* === section 2 images === */
+.second-section h2{
+    font-size: 2.5rem;
+    color: #fff;
+    padding: 1.3rem 0;
+    margin-left: 12.7rem;
+}
+
+.img6{
+    background-image: url("assets/images/money\ heist.webp");
+}
+.img7{
+    background-image: url("assets/images/stranger\ thinkgs.webp");
+}
+.img8{
+    background-image: url("assets/images/queen\ of\ tears.webp");
+}
+.img9{
+    background-image: url("assets/images/lucifer.webp");
+}
+.img10{
+    background-image: url("assets/images/heeramandi.webp");
+}
+/* === section 2 end === */
+
+/* ====== third(3) section start ===== */
+
+.question{
+    display: flex;
+    flex-direction: column;
+}
+
+.question h2{
+    font-size: 2.5rem;
+    color: #fff;
+    padding: 1rem 0;
+    margin-left: 12.7rem;
+}
+
+.question-box{
+    width: 70vw;
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    color: antiquewhite;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    margin: 5px auto;
+    padding: 1.5rem 0.7rem;
+}
+
+footer{
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+footer p{
+    color: #fff;
+    padding: 3rem 0;
+    margin-left: 12rem;
+}
+
+.line{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-line{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-line a{
+    color: #fff;
+    padding-bottom: 1rem;
+}
